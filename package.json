@@ -1,0 +1,27 @@
+{
+  "name": "nodebase",
+  "version": "1.0.0",
+  "description": "this is a structural code for nodejs express backend to avoid creating the best structure again and again",
+  "main": "src/app.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev":"nodemon src/app.js"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "express"
+  ],
+  "author": "Pawandeep Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

@@ -25,3 +25,5 @@ async function establishConnection() {
       console.log(`Unable to connect to the ${process.env.DB_NAME} database - `,error);
     }
 }
+
+console.log("this log is wrtiiten just to check whether gitignore file is working or not !");
